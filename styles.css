@@ -4,21 +4,31 @@
 }
 
 body {
-    margin: 0;
     height: 100vh;
     background: linear-gradient(45deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
     overflow: hidden;
     place-items: center;
 }
 
+.container {
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.8);
+}
+
 h1 {
+    margin-top: 10px;
     color: white;
     font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
+    padding: 10px 20px 10px 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgba(0, 0, 0, 0.7);
-    font-size: larger;
+    font-size: small 20px;
 }
